@@ -1,5 +1,6 @@
 package com.kicobicn;
 
+import com.kicobicn.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -20,5 +21,6 @@ public class Kicosidea implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Kicos idea mod");
+		ModItems.registerModItems();
 	}
 }
