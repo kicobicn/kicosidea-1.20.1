@@ -3,7 +3,7 @@
 	"package": "com.kicobicn.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+      "KicosideaMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
