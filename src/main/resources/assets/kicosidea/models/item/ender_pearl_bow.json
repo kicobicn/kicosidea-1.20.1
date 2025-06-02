@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kicosidea:mod/ender_pearl_bow"
+    "layer0": "kicosidea:item/ender_pearl_bow"
   }
 }

@@ -1,7 +1,7 @@
 package com.kicobicn;
 
-import com.kicobicn.registry.ModItemGroup;
-import com.kicobicn.registry.ModItems;
+import com.kicobicn.item.ModItemGroups;
+import com.kicobicn.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,7 +21,7 @@ public class Kicosidea implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Kicos idea mod");
-		ModItemGroup.registerModItemGroup();
 		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }
