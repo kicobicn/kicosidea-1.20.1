@@ -19,9 +19,13 @@ public class ModItems {
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(COIN);
-        entries.add(TNTSNOWBALL);
-        entries.add(STONEBALL);
     }
+
+    private static void addItemsToCombatTabItemGroup(FabricItemGroupEntries entries) {
+        entries.add(STONEBALL);
+        entries.add(TNTSNOWBALL);
+    }
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Kicosidea.MOD_ID, name), item);
@@ -31,5 +35,6 @@ public class ModItems {
         Kicosidea.LOGGER.info("Registering mod item for" + Kicosidea.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addItemsToCombatTabItemGroup);
     }
 }

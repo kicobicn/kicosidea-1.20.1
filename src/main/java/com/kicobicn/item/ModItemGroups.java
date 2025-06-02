@@ -13,8 +13,10 @@ public class ModItemGroups {
 
     public static final ItemGroup KICOSITEM = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Kicosidea.MOD_ID, "kicositem"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.kicosidea.kicositem"))
-                    .icon(() -> new ItemStack(ModItems.COIN)).entries((displayContext, entries) -> {
+            FabricItemGroup.builder()
+                    .displayName(Text.translatable("itemgroup.kicosidea.kicositem"))
+                    .icon(() -> new ItemStack(ModItems.COIN))
+                    .entries((displayContext, entries) -> {
                         entries.add(ModItems.COIN);
                         entries.add(ModItems.TNTSNOWBALL);
                         entries.add(ModItems.STONEBALL);
