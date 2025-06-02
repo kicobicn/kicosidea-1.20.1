@@ -14,11 +14,13 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item COIN = registerItem("coin", new Item(new FabricItemSettings()));
-    public static final Item ENDERPEARLBOW = registerItem("ender_pearl_bow", new Item(new FabricItemSettings()));
+    public static final Item TNTSNOWBALL = registerItem("tnt_snowball", new Item(new FabricItemSettings()));
+    public static final Item STONEBALL = registerItem("stone_ball", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(COIN);
-        entries.add(ENDERPEARLBOW);
+        entries.add(TNTSNOWBALL);
+        entries.add(STONEBALL);
     }
 
     private static Item registerItem(String name, Item item) {

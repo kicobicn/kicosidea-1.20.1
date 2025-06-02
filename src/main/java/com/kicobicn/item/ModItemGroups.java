@@ -16,7 +16,8 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.kicosidea.kicositem"))
                     .icon(() -> new ItemStack(ModItems.COIN)).entries((displayContext, entries) -> {
                         entries.add(ModItems.COIN);
-                        entries.add(ModItems.ENDERPEARLBOW);
+                        entries.add(ModItems.TNTSNOWBALL);
+                        entries.add(ModItems.STONEBALL);
 
                     }).build());
 

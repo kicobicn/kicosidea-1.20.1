@@ -1,6 +1,7 @@
 {
-  "item.kicosidea.ender_pearl_bow":"末影珍珠弓",
+  "item.kicosidea.tnt_snowball":"TNT雪球",
   "item.kicosidea.coin":"硬币",
+  "item.kicosidea.stone_ball": "带石子的雪球",
 
   "itemgroup.kicosidea.kicositem": "Kico的物品"
 }

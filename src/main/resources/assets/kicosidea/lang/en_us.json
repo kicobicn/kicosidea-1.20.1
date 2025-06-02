@@ -1,6 +1,7 @@
 {
-  "item.kicosidea.ender_pearl_bow":"Ender Pearl Bow",
+  "item.kicosidea.tnt_snowball":"TNT Snowball",
   "item.kicosidea.coin":"Coin",
+  "item.kicosidea.stone_ball": "Stone ball",
 
   "itemgroup.kicosidea.kicositem": "Kicositem"
 }
