@@ -3,13 +3,13 @@
 	"id": "kicosidea",
 	"version": "${version}",
 	"name": "Kicosidea",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "kicobicn's some idea will run in minecraft",
 	"authors": [
-		"Me!"
+		"kicobicn"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/kicobicn/kicosidea-1.20.1/"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/kicosidea/icon.png",
