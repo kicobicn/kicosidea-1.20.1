@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "kicosidea:deeplate_experience_ore"
+              "name": "kicosidea:deepslate_experience_ore"
             }
           ]
         }
@@ -32,5 +32,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "kicosidea:block/deeplate_experience_ore"
+  "random_sequence": "kicosidea:block/deepslate_experience_ore"
 }

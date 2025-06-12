@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:creating_shaped",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
     "###",
