@@ -23,7 +23,7 @@ public class ModBlocks {
 
     public static final Block EXPERIENCE_ORE = registerBlock("experience_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(25, 45)));
-    public static final Block DEEPSLATE_EXPERIENCE_ORE = registerBlock("deeplate_experience_ore",
+    public static final Block DEEPSLATE_EXPERIENCE_ORE = registerBlock("deepslate_experience_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(4f), UniformIntProvider.create(25, 45)));
     public static final Block NETHER_EXPERIENCE_ORE = registerBlock("nether_experience_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).strength(1.5f), UniformIntProvider.create(25, 45)));
