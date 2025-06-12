@@ -16,14 +16,20 @@ public class ModItems {
     public static final Item COIN = registerItem("coin", new Item(new FabricItemSettings()));
     public static final Item TNTSNOWBALL = registerItem("tnt_snowball", new Item(new FabricItemSettings()));
     public static final Item STONEBALL = registerItem("stone_ball", new Item(new FabricItemSettings()));
+    public static final Item SHIT = registerItem("shit", new Item(new FabricItemSettings()));
+
+
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
-        entries.add(COIN);
+
     }
 
     private static void addItemsToCombatTabItemGroup(FabricItemGroupEntries entries) {
-        entries.add(STONEBALL);
-        entries.add(TNTSNOWBALL);
+
+    }
+
+    private static void addItemsToBuildingBlockTabItemGroup(FabricItemGroupEntries entries) {
+
     }
 
 
@@ -36,5 +42,6 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addItemsToCombatTabItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(ModItems::addItemsToBuildingBlockTabItemGroup);
     }
 }

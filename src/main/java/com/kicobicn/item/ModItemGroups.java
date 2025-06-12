@@ -1,6 +1,7 @@
 package com.kicobicn.item;
 
 import com.kicobicn.Kicosidea;
+import com.kicobicn.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -18,10 +19,21 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.COIN))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.COIN);
+                        entries.add(ModItems.SHIT);
                         entries.add(ModItems.TNTSNOWBALL);
                         entries.add(ModItems.STONEBALL);
 
-                    }).build());
+                        entries.add(ModBlocks.COIN_BLOCK);
+                        entries.add(ModBlocks.SHIT_BLOCK);
+                        entries.add(ModBlocks.KICO_LUCKY_BLOCK);
+
+                        entries.add(ModBlocks.EXPERIENCE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_EXPERIENCE_ORE);
+                        entries.add(ModBlocks.NETHER_EXPERIENCE_ORE);
+                        entries.add(ModBlocks.END_STONE_EXPERIENCE_ORE);
+
+                    })
+                    .build());
 
 
     public static void registerItemGroups(){

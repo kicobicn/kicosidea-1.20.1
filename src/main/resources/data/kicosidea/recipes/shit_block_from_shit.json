@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:creating_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "kicosidea:shit"
+    }
+  },
+  "result": {
+    "item": "kicosidea:shit_block"
+  }
+}

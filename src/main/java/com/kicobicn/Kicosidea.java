@@ -1,5 +1,6 @@
 package com.kicobicn;
 
+import com.kicobicn.block.ModBlocks;
 import com.kicobicn.item.ModItemGroups;
 import com.kicobicn.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -17,5 +18,6 @@ public class Kicosidea implements ModInitializer {
 		LOGGER.info("Kicos idea mod");
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 }

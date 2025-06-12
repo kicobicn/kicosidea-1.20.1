@@ -2,6 +2,16 @@
   "item.kicosidea.tnt_snowball":"TNT Snowball",
   "item.kicosidea.coin":"Coin",
   "item.kicosidea.stone_ball": "Stone ball",
+  "item.kicosidea.shit": "Shit",
+
+  "block.kicosidea.coin_block": "Block Of Coin",
+  "block.kicosidea.shit_block": "Block Of Shit",
+  "block.kicosidea.kico_lucky_block": "Kico's lucky block",
+
+  "block.kicosidea.experience_ore": "Experience Ore",
+  "block.kicosidea.deeplate_experience_ore": "Deeplate Experience Ore",
+  "block.kicosidea.nether_experience_ore": "Nether Experience Ore",
+  "block.kicosidea.end_stone_experience_ore": "End Stone Experience Ore",
 
   "itemgroup.kicosidea.kicositem": "Kicositem"
 }
