@@ -24,11 +24,11 @@ public class ModBlocks {
     public static final Block EXPERIENCE_ORE = registerBlock("experience_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(25, 45)));
     public static final Block DEEPSLATE_EXPERIENCE_ORE = registerBlock("deepslate_experience_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(4f), UniformIntProvider.create(25, 45)));
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(4f), UniformIntProvider.create(30, 55)));
     public static final Block NETHER_EXPERIENCE_ORE = registerBlock("nether_experience_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).strength(1.5f), UniformIntProvider.create(25, 45)));
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).strength(1.5f), UniformIntProvider.create(20, 40)));
     public static final Block END_STONE_EXPERIENCE_ORE = registerBlock("end_stone_experience_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(3f), UniformIntProvider.create(25, 45)));
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(3f), UniformIntProvider.create(30, 55)));
 
     public static final Block KICO_LUCKY_BLOCK = registerBlock("kico_lucky_block",
             new Block(FabricBlockSettings.create().sounds(BlockSoundGroup.STONE).strength(4.0f)));

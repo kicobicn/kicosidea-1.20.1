@@ -20,8 +20,9 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.COIN);
                         entries.add(ModItems.SHIT);
-                        entries.add(ModItems.TNTSNOWBALL);
+                        entries.add(ModItems.TNTSBALL);
                         entries.add(ModItems.STONEBALL);
+                        entries.add(ModItems.METAL_DETECTOR);
 
                         entries.add(ModBlocks.COIN_BLOCK);
                         entries.add(ModBlocks.SHIT_BLOCK);

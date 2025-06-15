@@ -1,6 +1,6 @@
 {
-  "type": "minecraft:creating_shapeless",
-  "category": "building",
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "kicosidea:shit_block"
