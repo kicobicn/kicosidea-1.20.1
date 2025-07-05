@@ -14,5 +14,7 @@
   "block.kicosidea.nether_experience_ore": "Nether Experience Ore",
   "block.kicosidea.end_stone_experience_ore": "End Stone Experience Ore",
 
+  "tooltip.kicosidea.metal_detector.tooltip": "Finds valuables underground",
+
   "itemgroup.kicosidea.kicositem": "Kicositem"
 }

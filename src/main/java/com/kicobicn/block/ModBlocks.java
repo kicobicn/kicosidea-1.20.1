@@ -17,9 +17,9 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 public class ModBlocks {
 
     public static final Block COIN_BLOCK = registerBlock("coin_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.STONE)));
     public static final Block SHIT_BLOCK = registerBlock("shit_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.ROOTED_DIRT)));
 
     public static final Block EXPERIENCE_ORE = registerBlock("experience_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(25, 45)));

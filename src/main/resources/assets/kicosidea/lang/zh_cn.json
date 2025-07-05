@@ -14,5 +14,7 @@
   "block.kicosidea.nether_experience_ore": "下界经验矿石",
   "block.kicosidea.end_stone_experience_ore": "末地石经验矿石",
 
+  "tooltip.kicosidea.metal_detector.tooltip": "可以在地下找到一些矿物",
+
   "itemgroup.kicosidea.kicositem": "Kico的物品"
 }
