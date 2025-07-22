@@ -29,14 +29,14 @@ public class EnderArrowEntity extends ArrowEntity {
             double dx = currX - prevX, dy = currY - prevY, dz = currZ - prevZ;
             double dist = Math.sqrt(dx * dx + dy * dy + dz * dz);
             // 根据距离计算插值点数量（此处每移动 0.5 个方块生成一个粒子，可按需调整）
-            int steps = Math.max(1, (int) (dist * 2));
+            int steps = Math.max(1, (int) (dist * 4));
             for (int i = 0; i <= steps; i++) {
                 double t = (double) i / steps;
                 double x = prevX + dx * t;
                 double y = prevY + dy * t;
                 double z = prevZ + dz * t;
                 // 在计算出的点上生成粒子
-                serverWorld.spawnParticles(ParticleTypes.PORTAL, x, y, z, 10, 0, 0, 0, 0);
+                serverWorld.spawnParticles(ParticleTypes.PORTAL, x, y, z, 3, 0, 0, 0, 0);
             }
         }
     }
@@ -64,9 +64,10 @@ public class EnderArrowEntity extends ArrowEntity {
 
     private void teleportShooter() {
         if (!this.getWorld().isClient() && this.getOwner() instanceof ServerPlayerEntity player) {
-            player.requestTeleport(this.getX(), this.getY(), this.getZ());
+            ServerWorld targetWorld = (ServerWorld) this.getWorld();
+            player.teleport(targetWorld, this.getX(), this.getY(), this.getZ(), player.getYaw(), player.getPitch());
             ServerWorld world = player.getServerWorld();
-            // 播放末影人传送音效
+            // 播放传送音效
             world.playSound(
                     null, // 所有附近玩家都能听见
                     this.getX(), this.getY(), this.getZ(),

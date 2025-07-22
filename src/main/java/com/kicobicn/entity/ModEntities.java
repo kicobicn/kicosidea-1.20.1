@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 public class ModEntities {
     public static final EntityType<EnderArrowEntity> ENDER_ARROW_ENTITY = Registry.register(
             Registries.ENTITY_TYPE,
-            new Identifier(Kicosidea.MOD_ID, "ender_arrow"),
+            new Identifier(Kicosidea.MOD_ID, "ender_pearl_arrow"),
             FabricEntityTypeBuilder
                     .<EnderArrowEntity>create(SpawnGroup.MISC, EnderArrowEntity::new)
                     .dimensions(EntityDimensions.fixed(0.5f, 0.5f))
