@@ -24,6 +24,8 @@ public class ModItemGroups {
                         entries.add(ModItems.STONEBALL);
                         entries.add(ModItems.METAL_DETECTOR);
 
+                        entries.add(ModItems.ENDER_PEARL_ARROW);
+
                         entries.add(ModBlocks.COIN_BLOCK);
                         entries.add(ModBlocks.SHIT_BLOCK);
                         entries.add(ModBlocks.KICO_LUCKY_BLOCK);
