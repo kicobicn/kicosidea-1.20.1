@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "kicosidea:deepslate_experience_ore",
+    "kicosidea:end_stone_experience_ore",
+    "kicosidea:experience_ore",
+    "kicosidea:nether_experience_ore",
+    "kicosidea:kico_lucky_block"
+  ]
+}

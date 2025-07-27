@@ -1,0 +1,10 @@
+// 1.20.1	2025-07-23T17:01:27.9740217	Kicosidea/Tags for minecraft:block
+a5fd4e3122597df903de45d7dbdb1f075ca2a28a data\kicosidea\tags\blocks\metal_detector_detectable_block.json
+0627e93b2e504c194d5a0b22359af6a364f47b0d data\minecraft\tags\blocks\mineable\pickaxe.json
+2e974c582f2a3bed5c771ed5d7cd6cc80354d122 data\minecraft\tags\blocks\needs_diamond_tool.json
+bc1dbac8903457cc5e646663b9be6dae6c3f28ac data\fabric\tags\blocks\needs_tool_level_4.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\mineable\axe.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\mineable\hoe.json
+188015db35dafe7010faeff8786485ad8c49128f data\minecraft\tags\blocks\mineable\shovel.json
+188015db35dafe7010faeff8786485ad8c49128f data\minecraft\tags\blocks\needs_stone_tool.json
+5545751d4f7d33457d6f5f355b19db483fa06360 data\minecraft\tags\blocks\needs_iron_tool.json

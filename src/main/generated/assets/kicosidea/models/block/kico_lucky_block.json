@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "kicosidea:block/kico_lucky_block"
+  }
+}

@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "kicosidea:block/end_stone_experience_ore"
-  }
-}
