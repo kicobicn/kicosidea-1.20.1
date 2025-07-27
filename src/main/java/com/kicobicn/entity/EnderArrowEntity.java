@@ -14,7 +14,7 @@ import net.minecraft.util.hit.EntityHitResult;
 import net.minecraft.world.World;
 
 public class EnderArrowEntity extends ArrowEntity {
-
+    //设定箭的发射者
     public EnderArrowEntity(EntityType<? extends EnderArrowEntity> type, World world) {
         super(type, world);
     }
@@ -28,7 +28,7 @@ public class EnderArrowEntity extends ArrowEntity {
             double currX = this.getX(), currY = this.getY(), currZ = this.getZ();
             double dx = currX - prevX, dy = currY - prevY, dz = currZ - prevZ;
             double dist = Math.sqrt(dx * dx + dy * dy + dz * dz);
-            // 根据距离计算插值点数量（此处每移动 0.5 个方块生成一个粒子，可按需调整）
+            // 根据距离计算插值点数量（此处每移动 0.25 个方块生成一个粒子）
             int steps = Math.max(1, (int) (dist * 4));
             for (int i = 0; i <= steps; i++) {
                 double t = (double) i / steps;

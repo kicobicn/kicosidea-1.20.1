@@ -6,8 +6,14 @@
   "item.kicosidea.metal_detector": "金属探测器",
   "item.kicosidea.ender_pearl_arrow": "末影珍珠箭",
 
+  "item.kicosidea.music_disc_1": "Cry For Me (feat_Ami) 音乐光盘",
+  "item.kicosidea.music_disc_1.desc": "Michita - Cry For Me (feat_ Ami)",
+  "item.kicosidea.music_disc_2": "Call of Silence 光碟",
+  "item.kicosidea.music_disc_2.desc": "澤野弘之 - Call of Silence",
+
   "block.kicosidea.coin_block": "硬币方块",
   "block.kicosidea.shit_block": "粑粑方块",
+  "block.kicosidea.sound_block": "声音方块",
   "block.kicosidea.kico_lucky_block": "Kico的幸运方块",
 
   "block.kicosidea.experience_ore": "经验矿石",
@@ -15,7 +21,11 @@
   "block.kicosidea.nether_experience_ore": "下界经验矿石",
   "block.kicosidea.end_stone_experience_ore": "末地石经验矿石",
 
-  "tooltip.kicosidea.metal_detector.tooltip": "可以在地下找到一些矿物",
+  "sounds.kicosidea.metal_detector_found_ore": "金属探测器的滴滴声",
 
-  "itemgroup.kicosidea.kicositem": "Kico的物品"
+  "tooltip.kicosidea.metal_detector.tooltip": "可以在地下找到一些矿物",
+  "tooltip.kicosidea.ender_pearl_arrow_tooltip": "可以搭配弓来使用它并且可以传送到箭矢落下的地方",
+
+  "itemgroup.kicosidea.kicositem": "Kico的物品",
+  "itemgroup.kicosidea.kicosmusic": "Kico的光碟"
 }

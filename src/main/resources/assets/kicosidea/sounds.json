@@ -1,0 +1,54 @@
+{
+  "metal_detector_found_ore": {
+    "subtitle": "sounds.kicosidea.metal_detector_found_ore",
+    "sounds": [
+      "kicosidea:metal_detector_found_ore"
+    ]
+  },
+  "sound_block_break": {
+    "subtitle": "kicosidea.sound_block_break",
+    "sounds": [
+      "kicosidea:sound_block_break"
+    ]
+  },
+  "sound_block_step": {
+    "subtitle": "kicosidea.sound_block_step",
+    "sounds": [
+      "kicosidea:sound_block_step"
+    ]
+  },
+  "sound_block_place": {
+    "subtitle": "kicosidea.sound_block_place",
+    "sounds": [
+      "kicosidea:sound_block_place"
+    ]
+  },
+  "sound_block_hit": {
+    "subtitle": "kicosidea.sound_block_hit",
+    "sounds": [
+      "kicosidea:sound_block_hit"
+    ]
+  },
+  "sound_block_fall": {
+    "subtitle": "kicosidea.sound_block_fall",
+    "sounds": [
+      "kicosidea:sound_block_fall"
+    ]
+  },
+  "music_disc_1": {
+    "sounds": [
+      {
+        "name": "kicosidea:cry_for_me",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_2": {
+    "sounds": [
+      {
+        "name": "kicosidea:call_of_silence",
+        "stream": true
+      }
+    ]
+  }
+}

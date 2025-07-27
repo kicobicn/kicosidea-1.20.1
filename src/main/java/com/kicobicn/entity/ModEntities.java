@@ -20,6 +20,15 @@ public class ModEntities {
                     .trackedUpdateRate(20)
                     .build()
     );
+    public static final EntityType<StoneBallEntity> STONE_BALL = Registry.register(
+            Registries.ENTITY_TYPE,
+            new Identifier(Kicosidea.MOD_ID, "stone_ball"),
+            FabricEntityTypeBuilder.<StoneBallEntity>create(SpawnGroup.MISC, StoneBallEntity::new)
+                    .dimensions(EntityDimensions.fixed(0.25f, 0.25f))
+                    .trackRangeBlocks(4)
+                    .trackedUpdateRate(10)
+                    .build()
+    );
 
     public static void registerEntities() {
         Kicosidea.LOGGER.info("Registering entities for " + Kicosidea.MOD_ID);

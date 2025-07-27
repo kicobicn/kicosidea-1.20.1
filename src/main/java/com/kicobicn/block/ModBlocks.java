@@ -1,6 +1,7 @@
 package com.kicobicn.block;
 
 import com.kicobicn.Kicosidea;
+import com.kicobicn.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -21,6 +22,9 @@ public class ModBlocks {
     public static final Block SHIT_BLOCK = registerBlock("shit_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.ROOTED_DIRT)));
 
+    public static final Block SOUNDBLOCK = registerBlock("sound_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(ModSounds.SOUND_BLOCK_SOUNDS)));
+
     public static final Block EXPERIENCE_ORE = registerBlock("experience_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(25, 45)));
     public static final Block DEEPSLATE_EXPERIENCE_ORE = registerBlock("deepslate_experience_ore",
@@ -31,7 +35,7 @@ public class ModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(3f), UniformIntProvider.create(30, 55)));
 
     public static final Block KICO_LUCKY_BLOCK = registerBlock("kico_lucky_block",
-            new Block(FabricBlockSettings.create().sounds(BlockSoundGroup.STONE).strength(4.0f)));
+            new LuckyBlock(FabricBlockSettings.create().sounds(BlockSoundGroup.STONE).strength(1.5f)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

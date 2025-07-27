@@ -21,6 +21,5 @@ public class ModTags {
             return TagKey.of(RegistryKeys.ITEM, new Identifier(Kicosidea.MOD_ID, name));
         }
     }
-
 }
 

@@ -20,8 +20,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.COIN);
                         entries.add(ModItems.SHIT);
-                        entries.add(ModItems.TNTSBALL);
-                        entries.add(ModItems.STONEBALL);
+                        entries.add(ModItems.STONE_BALL);
                         entries.add(ModItems.METAL_DETECTOR);
 
                         entries.add(ModItems.ENDER_PEARL_ARROW);
@@ -34,9 +33,20 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_EXPERIENCE_ORE);
                         entries.add(ModBlocks.NETHER_EXPERIENCE_ORE);
                         entries.add(ModBlocks.END_STONE_EXPERIENCE_ORE);
+                        entries.add(ModBlocks.SOUNDBLOCK);
 
                     })
                     .build());
+
+    public static final ItemGroup KICOSMUSIC = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(Kicosidea.MOD_ID, "kicosmusic"),
+            FabricItemGroup.builder()
+                    .displayName(Text.translatable("itemgroup.kicosidea.kicosmusic"))
+                    .icon(() -> new ItemStack(ModItems.MUSIC_DISC_1))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.MUSIC_DISC_1);
+                        entries.add(ModItems.MUSIC_DISC_2);
+                    }).build());
 
 
     public static void registerItemGroups(){
