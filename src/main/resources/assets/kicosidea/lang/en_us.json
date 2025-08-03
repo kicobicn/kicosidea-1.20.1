@@ -5,6 +5,7 @@
   "item.kicosidea.shit": "Shit",
   "item.kicosidea.metal_detector": "Metal Detector",
   "item.kicosidea.ender_pearl_arrow":"Ender Pearl Arrow",
+  "item.kicosidea.sharpening_stone": "Sharpening Stone",
 
   "item.kicosidea.music_disc_1": "Cry For Me (feat_Ami) misc",
   "item.kicosidea.music_disc_1.desc": "Michita - Cry For Me (feat_ Ami)",
@@ -25,6 +26,10 @@
 
   "tooltip.kicosidea.metal_detector.tooltip": "Finds valuables underground",
   "tooltip.kicosidea.ender_pearl_arrow_tooltip": "You can use it by bow and teleport arrow when it fall",
+  "tooltip.kicosidea.sharpened_stone": "You can use it to give your sidekick +1 attack damage",
+  "tooltip.kicosidea.sharpened": "Sharpened (LEVEL: %d)",
+
+  "message.kicosidea.sharpened": "Sharpened! LEVEL: %d",
 
   "itemgroup.kicosidea.kicositem": "Kico's item",
   "itemgroup.kicosidea.kicosmusic": "Kico's music disc"

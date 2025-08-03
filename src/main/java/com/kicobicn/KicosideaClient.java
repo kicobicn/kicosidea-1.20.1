@@ -13,5 +13,6 @@ public class KicosideaClient implements ClientModInitializer {
                 ArrowEntityRenderer::new);
         EntityRendererRegistry.register(ModEntities.STONE_BALL,
                 FlyingItemEntityRenderer::new);
+
     }
 }

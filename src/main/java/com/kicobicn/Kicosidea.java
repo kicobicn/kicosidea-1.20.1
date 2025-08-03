@@ -2,6 +2,7 @@ package com.kicobicn;
 
 import com.kicobicn.block.ModBlocks;
 import com.kicobicn.entity.ModEntities;
+import com.kicobicn.handler.SharpeningHandler;
 import com.kicobicn.item.ModItemGroups;
 import com.kicobicn.item.ModItems;
 import com.kicobicn.sound.ModSounds;
@@ -22,5 +23,7 @@ public class Kicosidea implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModEntities.registerEntities();
 		ModSounds.registerSounds();
+
+		SharpeningHandler.register();
 	}
 }

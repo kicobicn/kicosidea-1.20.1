@@ -6,6 +6,7 @@
     "kicosidea:experience_ore",
     "kicosidea:nether_experience_ore",
     "kicosidea:coin_block",
-    "kicosidea:shit_block"
+    "kicosidea:shit_block",
+    "kicosidea:kico_lucky_block"
   ]
 }

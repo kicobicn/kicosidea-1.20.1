@@ -3,6 +3,7 @@ package com.kicobicn.item;
 import com.kicobicn.Kicosidea;
 import com.kicobicn.item.custom.EnderArrowItem;
 import com.kicobicn.item.custom.MetalDetectorItem;
+import com.kicobicn.item.custom.SharpeningStoneItem;
 import com.kicobicn.item.custom.StoneBallItem;
 import com.kicobicn.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -18,6 +19,7 @@ public class ModItems {
     public static final Item COIN = registerItem("coin", new Item(new FabricItemSettings()));
 
     public static final Item STONE_BALL = registerItem("stone_ball", new StoneBallItem(new FabricItemSettings()));
+    public static final Item SHARPENING_STONE = registerItem("sharpening_stone", new SharpeningStoneItem(new FabricItemSettings()));
 
     public static final Item SHIT = registerItem("shit", new Item(new FabricItemSettings().food(ModFoodCompenents.SHIT)));
 

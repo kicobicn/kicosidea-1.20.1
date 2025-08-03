@@ -33,6 +33,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
         itemModelGenerator.register(ModItems.STONE_BALL, Models.GENERATED);
         itemModelGenerator.register(ModItems.ENDER_PEARL_ARROW, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SHARPENING_STONE,Models.GENERATED);
+
         itemModelGenerator.register(ModItems.MUSIC_DISC_1, Models.GENERATED);
         itemModelGenerator.register(ModItems.MUSIC_DISC_2, Models.GENERATED);
     }

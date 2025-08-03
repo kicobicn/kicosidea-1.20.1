@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModItems.SHIT);
                         entries.add(ModItems.STONE_BALL);
                         entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModItems.SHARPENING_STONE);
 
                         entries.add(ModItems.ENDER_PEARL_ARROW);
 

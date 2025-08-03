@@ -5,6 +5,7 @@
   "item.kicosidea.shit": "粑粑",
   "item.kicosidea.metal_detector": "金属探测器",
   "item.kicosidea.ender_pearl_arrow": "末影珍珠箭",
+  "item.kicosidea.sharpening_stone": "磨刀石",
 
   "item.kicosidea.music_disc_1": "Cry For Me (feat_Ami) 音乐光盘",
   "item.kicosidea.music_disc_1.desc": "Michita - Cry For Me (feat_ Ami)",
@@ -25,6 +26,10 @@
 
   "tooltip.kicosidea.metal_detector.tooltip": "可以在地下找到一些矿物",
   "tooltip.kicosidea.ender_pearl_arrow_tooltip": "可以搭配弓来使用它并且可以传送到箭矢落下的地方",
+  "tooltip.kicosidea.sharpened_stone":"你可以用它来给你的副手物品+1攻击伤害",
+  "tooltip.kicosidea.sharpened": "强化 (等级: %d)",
+
+  "message.kicosidea.sharpened": "强化成功! 等级: %d",
 
   "itemgroup.kicosidea.kicositem": "Kico的物品",
   "itemgroup.kicosidea.kicosmusic": "Kico的光碟"

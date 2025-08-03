@@ -3,7 +3,9 @@
 	"package": "com.kicobicn.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-      "KicosideaMixin"
+      "KicosideaMixin",
+		"ItemStackMixin",
+		"LivingEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

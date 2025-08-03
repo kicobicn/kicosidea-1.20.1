@@ -165,7 +165,7 @@ public class LuckyBlock extends Block {
                     }
                 }
                 case 15 ->
-                    player.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 15 * 20, 9));
+                    player.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 5 * 20, 19));
             }
         }
 

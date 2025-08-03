@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:andesite"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "G": {
+      "item": "minecraft:granite"
+    },
+    "D": {
+      "item": "minecraft:diorite"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "C": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "QCQ",
+    "ANG",
+    "QDQ"
+  ],
+  "result": {
+    "item": "kicosidea:sharpening_stone"
+  },
+  "show_notification": true
+}
